@@ -12,5 +12,5 @@ var mergeTwoLists = function(list1, list2) {
         pre = pre.next;
     }
     pre.next = list1 == null ? list2 : list1;
-    return pre.next;
+    return list.next;
 };
