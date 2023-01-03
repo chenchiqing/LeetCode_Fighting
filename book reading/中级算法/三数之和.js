@@ -1,6 +1,7 @@
 var threeSum = function(nums) {
+    // 直接使用nums.sort()无法生效
     nums.sort((a, b) => a - b);
-    console.log(nums);
+    // console.log(nums);
     let res = [];
     let len = nums.length;
     for(let i = 0; i < len - 2; i ++) {
